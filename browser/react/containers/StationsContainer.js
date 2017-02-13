@@ -16,11 +16,11 @@ function convertSongsToStations(songsArray) {
   return stations;
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state, ownProps) => ({
   stations: convertSongsToStations(state.songs)
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch, ownProps) => ({
 
 });
 

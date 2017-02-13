@@ -8,6 +8,8 @@ export default function (props) {
   const isPlaying = props.isPlaying;
   const toggleOne = props.toggleOne;
 
+  console.log('----this is album.songs', album.songs);
+
   return (
     <div className="album">
       <div>
